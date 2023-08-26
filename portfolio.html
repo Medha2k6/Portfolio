@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darigi Srimedha - Portfolio</title>
+    <style>
+        /* Custom CSS for Portfolio */
+
+        /* General styles */
+        body {
+            font-family: "Arial", sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            background-color: #f5f5f5; /* Light gray background */
+        }
+
+        header {
+            background-color: orange; /* Navy blue background */
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 3rem;
+            color: #fff; /* White text color */
+        }
+
+        h2 {
+            border-bottom: 2px solid #25274d; /* Navy blue underline */
+            padding-bottom: 0.5rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        nav {
+            background-color: #fff; /* White background */
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 1rem;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+        }
+
+        nav a:hover {
+            color: #25274d; /* Navy blue text color on hover */
+            background-color: #fff; /* White background on hover */
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 2rem 0;
+            text-align: center;
+            background-color: lightblue; /* Pink background for sections */
+        }
+
+        /* Project and Certificate cards */
+        .project-item,
+        .certificate-item {
+            text-align: left;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 1.5rem;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1rem;
+        }
+
+        .project-item h3,
+        .certificate-item h3 {
+            margin-top: 0;
+            color: #25274d; /* Navy blue text color */
+        }
+
+        .project-item p,
+        .certificate-item p {
+            margin-bottom: 1rem;
+        }
+
+        /* Skills section */
+        #skills {
+            background-color: lightblue; /* Pink background for skills */
+        }
+
+        #skills ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #skills li {
+            display: inline-block;
+            margin: 0 10px;
+            border: 2px solid #25274d; /* Navy blue border around skills */
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #fff; /* White background for skill boxes */
+        }
+
+        /* Contact details */
+        .contact-item {
+            text-align: center;
+        }
+
+        .contact-item a {
+            color: #25274d; /* Navy blue link color for email */
+        }
+
+        /* Footer */
+        footer {
+            background-color: orange; /* Navy blue background */
+            padding: 2rem 0;
+            text-align: center;
+            clear: both;
+            color: #fff; /* White text color */
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Media query for mobile responsiveness */
+        @media (max-width: 767px) {
+            nav li {
+                display: block;
+                margin-bottom: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Darigi Srimedha</h1>
+        <p>Computer Science and Engineering Student</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a third-year B.Tech student in Computer Science and Engineering at IIIT Guwahati. I have experience in web
+            development, C, C++, Python, and MySQL. Currently, I am working as a web development intern at Bharat Intern. I
+            have also completed the MATLAB Onramp course from MathWorks and earned a Developer and Technology Virtual Experience
+            Programme Certificate of Completion. Additionally, I have finished the Introduction to Generative AI course from
+            Google and earned a badge for it.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>UI/UX Design</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>MySQL</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-item">
+            <h3>Real Estate Project</h3>
+            <p>
+                A real estate project that I developed, showcasing my skills in web development and database management.
+            </p>
+            <p>
+                <a href="https://github.com/Medha2k6/RealEstate" target="_blank">View on GitHub</a>
+            </p>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <div class="certificate-item">
+            <h3>Developer and Technology Virtual Experience Programme Certificate</h3>
+            <p>
+                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20UK/3xnZEj9kfpoQKW885_Accenture%20UK_6gMCajNpYXwDwcgfH_1689772764342_completion_certificate.pdf"
+                    target="_blank">View Certificate</a>
+            </p>
+        </div>
+        <div class="certificate-item">
+            <h3>MATLAB Onramp Certificate</h3>
+            <p>
+                <a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=3eac5227-365e-4c84-ab97-a624fa3454cb&"
+                    target="_blank">View Certificate</a>
+            </p>
+        </div>
+        <div class="certificate-item">
+            <h3>Introduction to Generative AI Badge</h3>
+            <p>
+                <a href="https://www.cloudskillsboost.google/public_profiles/9eab8553-fac7-49c5-b780-460767f771c1/badges/4368139?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+                    target="_blank">View Badge</a>
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-item">
+            <h3>Phone</h3>
+            <p>+91 833849884</p>
+            <p>+91 6002334828</p>
+            <h3>Email</h3>
+            <p><a href="mailto:medha6206@gmail.com">medha6206@gmail.com</a></p>
+        </div>
+        <div class="contact-item">
+            <h3>LinkedIn</h3>
+            <p>
+                <a href="https://www.linkedin.com/in/sri-medha-71349b255" target="_blank">linkedin.com/in/sri-medha-71349b255</a>
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Darigi Srimedha. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
